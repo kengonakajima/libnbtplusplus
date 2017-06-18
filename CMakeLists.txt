@@ -5,7 +5,7 @@ project(libnbt++
 # supported configure options
 option(NBT_BUILD_SHARED "Build shared libraries" OFF)
 option(NBT_USE_ZLIB "Build additional zlib stream functionality" ON)
-option(NBT_BUILD_TESTS "Build the unit tests. Requires CxxTest." ON)
+#option(NBT_BUILD_TESTS "Build the unit tests. Requires CxxTest." ON)
 
 # hide this from includers.
 set(BUILD_SHARED_LIBS ${NBT_BUILD_SHARED})
